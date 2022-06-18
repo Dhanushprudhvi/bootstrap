@@ -7,26 +7,27 @@
     color: white;
     padding: 1% 5%;
     text-align: center;
-    border-radius: 2%;
     margin: 0 0.1%;
 }
 
 .home_center{
     margin: 5% 0 2% 0;
 }
-.center_text h1{
-    font-size: 3rem;
-    margin-bottom: 10%;
-
-}
 .center_text p{
     font-size: 1.1rem;
     line-height: 1.6;
+    font-family: 'Libre Baskerville', serif;
 }
 .center_image img{
-    width: 43%;
+    width: 63%;
     -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
     filter: drop-shadow(1px 1px 5px rgb(255, 252, 252));
+   
+}
+.originalname{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    margin-bottom: 10%;
 }
 #upcoming_events{
    padding: 5%;
@@ -61,6 +62,16 @@
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+}
+@media screen and (max-width:991px) {
+    .center_image img{
+        width: 70%;
+    }
+}
+@media screen and (max-width:460px) {
+    .center_image img{
+        width: 100%;
+    }
 }
 
 
